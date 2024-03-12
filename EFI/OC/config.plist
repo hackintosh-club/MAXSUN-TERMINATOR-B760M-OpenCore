@@ -5,7 +5,7 @@
         <key>#About</key>
         <string>B站UP：乌龙蜜桃来一打</string>
         <key>#Website</key>
-        <string>https://github.com/hackintosh-efi/MAXSUN-B660M-TERMINATOR-OpenCore</string>
+        <string>https://github.com/hackintosh-club/MAXSUN-TERMINATOR-B760M-OpenCore</string>
         <key>ACPI</key>
         <dict>
             <key>Add</key>
