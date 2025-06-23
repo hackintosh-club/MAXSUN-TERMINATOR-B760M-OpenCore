@@ -4,7 +4,7 @@
 
 ### OpenCore
 
-[OpenCore 1.0.2](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 1.0.4](https://github.com/acidanthera/OpenCorePkg)
 
 ### macOS
 
@@ -33,20 +33,28 @@
 
 ```
 
-|-- VT-d：开启
-|-- Above 4G decoding：开启
-|-- Resizable Bar：关闭
-|-- EHCI/XHCI Hand-off：开启
-|-- CSM Support：关闭
+Advanced
+|-- CPU Configuration
+    |-- CFG LOCK:禁用
+|-- Chipset Configuration
+    |-- VT-d：开启
+    |-- Above 4G decoding：开启
+    |-- Resizable Bar：关闭
+|-- Chipset Configuration
+    |-- XHCI Hand-off：开启
+Startup
 |-- Fast Boot：关闭
-|-- Secure Boot：关闭
-|-- CFG LOCK：关闭
-
+|-- CSM Support：关闭
+Security
+|-- Secure Boot
+    |-- Secure Boot Mode：Custom
+    |-- Key Management：Clear Secure Boot Keys
 ```
 
 ### 注意事项
 
  - 安装成功后必须使用 [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) 生成你自己的 SMBIOS
+ - EFI中使用英特尔无线[itlwm](https://github.com/OpenIntelWireless/itlwm)驱动，请自行下载[HeliPort,dmg](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.5.0)连结wifi
 
 ### 参考内容
 
